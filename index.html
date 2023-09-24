@@ -11,13 +11,13 @@
 <body>
     <!-- Bloque 1: Hero -->
     <section class="hero">
-        <h1>FrontEnd</h1>
-        <p>Hola, mi nombre es Luis Samán</p>
+        <h1 class="hero-title">FrontEnd</h1>
+        <p class="hero-text">Hola, mi nombre <br>es Luis Samán</p>
     </section>
     <!-- Bloque 2: Sobre Mi -->
-    <section>
-        <h2>Sobre mi</h2>
-        <p>
+    <section class="sobre-mi">
+        <h2 class="sobre-mi-title">Sobre mi</h2>
+        <p class="sobre-mi-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ab unde hic quidem neque, nisi quasi
             necessitatibus molestiae libero inventore labore distinctio iste doloribus quaerat exercitationem earum non?
             Voluptate, pariatur!
@@ -33,11 +33,11 @@
             pariatur similique quidem quis, quos vel minus iusto officiis harum debitis magnam sunt vero suscipit
             dolorem.
         </p>
-        <button>Ver CV</button>
+        <button class="sobre-mi-button">Ver CV</button>
     </section>
     <!-- Bloque 3: Mis Skills -->
-    <section>
-        <h2>Mis Skills</h2>
+    <section class="mis-skils">
+        <h2 class="mis-skils-title">Mis Skills</h2>
         <div class="wrapper-mis-skills">
             <!-- Elemento 1 -->
             <section>
@@ -72,81 +72,49 @@
         </div>
     </section>
     <!-- Bloque 4: Portafolio -->
-    <section>
-        <h2>Portafolio</h2>
-        <div class="wrapper-mi-portafolio">
-            <!-- Elemento 1 -->
-            <section>
-            </section>
-            <!-- Elemento 2 -->
-            <section>
-            </section>
-            <!-- Elemento 3 -->
-            <section>
-            </section>
-            <!-- Elemento 4 -->
-            <section>
-            </section>
-            <!-- Elemento 5 -->
-            <section>
-            </section>
-            <!-- Elemento 6 -->
-            <section>
-            </section>
-            <!-- Elemento 7 -->
-            <section>
-            </section>
-            <!-- Elemento 8 -->
-            <section>
-            </section>
+    <section class="portafolio">
+        <h2 class="portafolio-title">Portafolio</h2>
+        <div class="wrapper-portafolio">
+            <img src="/img/portafolio-1.png" alt="portafolio-1">
+            <img src="/img/portafolio-2.png" alt="portafolio-2">
+            <img src="/img/portafolio-3.png" alt="portafolio-3">
+            <img src="/img/portafolio-4.png" alt="portafolio-4">
+            <img src="/img/portafolio-5.png" alt="portafolio-5">
+            <img src="/img/portafolio-6.png" alt="portafolio-6">
+            <img src="/img/portafolio-7.png" alt="portafolio-7">
+            <img src="/img/portafolio-8.png" alt="portafolio-8">
         </div>
     </section>
     <!-- Bloque 4: Clientes -->
-    <section>
-        <h2>Clientes</h2>
-        <!-- Elemento 1 -->
-        <section>
-        </section>
-        <!-- Elemento 2 -->
-        <section>
-        </section>
-        <!-- Elemento 3 -->
-        <section>
-        </section>
-        <!-- Elemento 4 -->
-        <section>
-        </section>
+    <section class="clientes">
+        <h2 class="clientes-title">Clientes</h2>
+        <div class="wrapper-clientes">
+            <img src="/img/cliente-3.png" alt="cliente-1">
+            <img src="/img/cliente-2.png" alt="cliente-1">
+            <img src="/img/cliente-3.png" alt="cliente-1">
+            <img src="/img/cliente-4.png" alt="cliente-1">
+        </div>
     </section>
     <!-- Bloque 4: Contacto -->
-    <section>
-        <h2>Contacto</h2>
+    <section class="contacto">
+        <h2 class="contacto-title">Contacto</h2>
+        <form class="contacto-form">
+            <div>
+                <input class="contacto-text" type="text" placeholder="Nombre">
+                <input class="contacto-text" type="text" placeholder="Apellido">
+            </div>
+            <div>
+                <input class="contacto-text" type="email" placeholder="Tu correo">
+                <input class="contacto-text" type="tel" placeholder="Tu teléfono">
+            </div>
+            <div>
+                <textarea class="contacto-textarea" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input class="contacto-input" type="submit" value="Enviar">
+            </div>
+        </form>
     </section>
-    <form>
-        <fieldset>
-            <legend>
-                Contáctame llenandome todos los campos
-            </legend>
-            <div>
-                <label>Nombre</label>
-                <input type="text" placeholder="Tu nombre">
-            </div>
-            <div>
-                <label>Teléfono</label>
-                <input type="tel" placeholder="Tu teléfono">
-            </div>
-            <div>
-                <label>Correo</label>
-                <input type="email" placeholder="Tu correo">
-            </div>
-            <div>
-                <label>Nombre</label>>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-            </div>
-            <div>
-                <input type="submit" value="Enviar">
-            </div>
-        </fieldset>
-    </form>
 </body>
 
 </html>

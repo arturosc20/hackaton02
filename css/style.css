@@ -1,0 +1,169 @@
+/* *{
+    margin: 0;
+} */
+html {
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+body {
+    margin: 20%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    background-image: url("/img/hero.png");
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    position: relative;
+}
+
+.hero-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-size: 30px;
+    background-color: #7aafe7;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.sobre-mi {
+    background-color: #7299FE;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-mi-title {
+    margin-top: 0px;
+    color: #2818b2;
+    text-align: center;
+}
+
+.sobre-mi-text {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sobre-mi-button {
+    background-color: #d16eff;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 0px;
+    width: 120px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.mis-skils {
+    background-color: #9022FF;
+}
+
+.mis-skils-title {
+    margin-top: 0px;
+    color: #2DC156;
+    text-align: center;
+}
+
+.wrapper-mis-skills {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.portafolio {
+    background-color: #ffd233;
+}
+
+.portafolio-title {
+    margin-top: 0px;
+    color: #00ad84;
+    text-align: center;
+}
+
+.wrapper-portafolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.clientes {
+    background-color: #3f4e62;
+}
+
+.clientes-title {
+    color: #adff28;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.wrapper-clientes {
+    text-align: center;
+    justify-items: center;
+}
+
+.contacto {
+    background-color: #1687a0;
+}
+
+.contacto-title {
+    color: #ff1b1b;
+    text-align: center;
+    margin-top: 0px;
+}
+
+progress {
+    appearance: none;
+}
+
+progress::-webkit-progress-bar {
+    border-radius: 10em;
+    background: white;
+}
+
+progress::-webkit-progress-value {
+    border-radius: 10em;
+    background: #57eff9
+}
+
+.contacto-text {
+    height: 40px;
+    width: 200px;
+    font-size: 12px;
+}
+
+.contacto-form {
+    text-align: center;
+}
+
+.contacto-input {
+    height: 40px;
+    width: 120px;
+    background-color: #233451;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.contacto-textarea {
+    height: 80px;
+    width: 415px;
+    font-size: 12px;
+}
